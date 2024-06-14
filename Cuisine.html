@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang ="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>éthnogout</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- favicon end -->
+
+    <!-- css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/CGU.CSS">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+</head>
+<body>
+
+<header>
+    <Nav class="nav_bar">
+        <div class="res_nav">
+            <div class="icon_menu icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav_menu">
+                <li class="nav_link"><a href="./index.html">Accueil</a></li>
+                <li class="nav_link"><a href="./Cuisine.html">Cuisine</a></li>
+                <li class="nav_link"><a href="./Ingredients.html">Ingredient</a></li>
+                <!-- <li class="nav_link"><a href="#">Restaurent</a></li> -->
+            </ul>
+        </div>
+
+
+        <ul class="nav">
+            <li class="nav_link"><a href="./index.html">Accueil</a></li>
+            <li class="nav_link"><a href="./Cuisine.html">Cuisine</a></li>
+            <li class="nav_link"><a href="./Ingredients.html">Ingredient</a></li>
+            <!-- <li class="nav_link"><a href="./restaurent">Restaurent</a></li> -->
+        </ul>
+        <div class="logo">
+            <a href="./index"><img src="./asset/appimg/logo-01.png" alt="ethnogout logo"></a>
+        </div>
+        <div class="icon search-icon p_searchicon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="user_menu">
+            <div class="icon user_icon p_usericon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <ul class="content">
+                <li class="cnt_link passive"><div class="userinfo"><span><i class="fa-regular fa-user"></i></span>Steve</div></li>
+                <li class="cnt_link passive"><a href="./myrecette">Mon Carnet</a></li>
+
+                <li class="cnt_link passive"><a href="./editUser">Parametre de Compte</a></li>
+                <li class="cnt_link activel"><a href="../php/logout.php">Se Déconnecter</a></li>
+            </ul>
+        </div>
+    </Nav>
+</header>
+<div class="searchs_section main_search">
+    <form action="#" method="get" class="search_form sfdiv" id="searchForm">
+        <input type="search" name="search_bar" id="search_bar" placeholder="Je cherche des recettes..." autocomplete="off">
+        <div class="icon_s">
+            <i class="fa-solid fa-magnifying-glass " ></i>
+        </div>
+
+    </form>
+</div>
+
+<main>
+    <section class="container_pagetemplete">
+        <h1>Cuisine de Chez nous</h1>
+        <div class="listAlphater">
+
+
+            <h2>A</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=55">Afrique du Sud</a></li>
+                <li><a href="./paysinfo?id=1">Algérie</a></li>
+                <li><a href="./paysinfo?id=2">Angola</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>B</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=3">Bénin</a></li>
+                <li><a href="./paysinfo?id=4">Botswana</a></li>
+                <li><a href="./paysinfo?id=5">Burkina Faso</a></li>
+                <li><a href="./paysinfo?id=6">Burundi</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>C</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=7">Cameroun</a></li>
+                <li><a href="./paysinfo?id=8">Cap-Vert</a></li>
+                <li><a href="./paysinfo?id=10">Comores</a></li>
+                <li><a href="./paysinfo?id=11">Congo (Brazzaville)</a></li>
+                <li><a href="./paysinfo?id=12">Congo (Kinshasa)</a></li>
+                <li><a href="./paysinfo?id=13">Côte d&#039;Ivoire</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>D</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=14">Djibouti</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>E</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=15">Égypte</a></li>
+                <li><a href="./paysinfo?id=16">Érythrée</a></li>
+                <li><a href="./paysinfo?id=48">Eswatini</a></li>
+                <li><a href="./paysinfo?id=17">Éthiopie</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>G</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=18">Gabon</a></li>
+                <li><a href="./paysinfo?id=19">Gambie</a></li>
+                <li><a href="./paysinfo?id=20">Ghana</a></li>
+                <li><a href="./paysinfo?id=21">Guinée</a></li>
+                <li><a href="./paysinfo?id=23">Guinée équatoriale</a></li>
+                <li><a href="./paysinfo?id=22">Guinée-Bissau</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>K</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=24">Kenya</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>L</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=25">Lesotho</a></li>
+                <li><a href="./paysinfo?id=26">Libéria</a></li>
+                <li><a href="./paysinfo?id=27">Libye</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>M</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=28">Madagascar</a></li>
+                <li><a href="./paysinfo?id=29">Malawi</a></li>
+                <li><a href="./paysinfo?id=30">Mali</a></li>
+                <li><a href="./paysinfo?id=31">Maroc</a></li>
+                <li><a href="./paysinfo?id=32">Maurice</a></li>
+                <li><a href="./paysinfo?id=33">Mauritanie</a></li>
+                <li><a href="./paysinfo?id=34">Mozambique</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>N</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=35">Namibie</a></li>
+                <li><a href="./paysinfo?id=36">Niger</a></li>
+                <li><a href="./paysinfo?id=37">Nigeria</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>O</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=38">Ouganda</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>R</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=9">République centrafricaine</a></li>
+                <li><a href="./paysinfo?id=39">Rwanda</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>S</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=40">Sahara occidental</a></li>
+                <li><a href="./paysinfo?id=41">Sao Tomé-et-Principe</a></li>
+                <li><a href="./paysinfo?id=42">Sénégal</a></li>
+                <li><a href="./paysinfo?id=43">Seychelles</a></li>
+                <li><a href="./paysinfo?id=44">Sierra Leone</a></li>
+                <li><a href="./paysinfo?id=45">Somalie</a></li>
+                <li><a href="./paysinfo?id=46">Soudan</a></li>
+                <li><a href="./paysinfo?id=47">Soudan du Sud</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>T</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=49">Tanzanie</a></li>
+                <li><a href="./paysinfo?id=50">Tchad</a></li>
+                <li><a href="./paysinfo?id=51">Togo</a></li>
+                <li><a href="./paysinfo?id=52">Tunisie</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>Z</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./paysinfo?id=53">Zambie</a></li>
+                <li><a href="./paysinfo?id=54">Zimbabwe</a></li>
+
+            </ul>
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="arrow">
+            <a href="#"><img src="./asset/appimg/logo-02.png" alt="arrow"></a>
+        </div>
+        <p>Tous droits réservés Bwango Astrid - 2024</p>
+
+    </div>
+
+</footer>
+<script type="module" src="./js/app.js"></script>
+<script src="./js/recette/searchbar.js"></script>
+
+
+</body>

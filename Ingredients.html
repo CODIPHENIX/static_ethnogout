@@ -1,0 +1,208 @@
+
+
+<!DOCTYPE html>
+<html lang ="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>éthnogout</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- favicon end -->
+
+    <!-- css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/CGU.CSS">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+
+
+</head>
+<body>
+
+<header>
+    <Nav class="nav_bar">
+        <div class="res_nav">
+            <div class="icon_menu icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav_menu">
+                <li class="nav_link"><a href="./index.html">Accueil</a></li>
+                <li class="nav_link"><a href="./Cuisine.html">Cuisine</a></li>
+                <li class="nav_link"><a href="./Ingredients.html">Ingredient</a></li>
+                <!-- <li class="nav_link"><a href="#">Restaurent</a></li> -->
+            </ul>
+        </div>
+
+
+        <ul class="nav">
+            <li class="nav_link"><a href="./index.html">Accueil</a></li>
+            <li class="nav_link"><a href="./Cuisine.html">Cuisine</a></li>
+            <li class="nav_link"><a href="./Ingredients.html">Ingredient</a></li>
+            <!-- <li class="nav_link"><a href="./restaurent">Restaurent</a></li> -->
+        </ul>
+        <div class="logo">
+            <a href="./index"><img src="./asset/appimg/logo-01.png" alt="ethnogout logo"></a>
+        </div>
+        <div class="icon search-icon p_searchicon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="user_menu">
+            <div class="icon user_icon p_usericon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <ul class="content">
+                <li class="cnt_link passive"><div class="userinfo"><span><i class="fa-regular fa-user"></i></span>Steve</div></li>
+                <li class="cnt_link passive"><a href="./myrecette">Mon Carnet</a></li>
+
+                <li class="cnt_link passive"><a href="./editUser">Parametre de Compte</a></li>
+                <li class="cnt_link activel"><a href="../php/logout.php">Se Déconnecter</a></li>
+            </ul>
+        </div>
+    </Nav>
+</header>
+<div class="searchs_section main_search">
+    <form action="#" method="get" class="search_form sfdiv" id="searchForm">
+        <input type="search" name="search_bar" id="search_bar" placeholder="Je cherche des recettes..." autocomplete="off">
+        <div class="icon_s">
+            <i class="fa-solid fa-magnifying-glass " ></i>
+        </div>
+
+    </form>
+</div>
+
+<main>
+    <section class="container_pagetemplete">
+        <h1>Ingredients</h1>
+
+        <div class="listAlphater">
+
+
+            <h2>A</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./ingredient?id=81">Agneau</a></li>
+                <li><a href="./ingredient?id=3">Ail</a></li>
+                <li><a href="./ingredient?id=96">Anchois</a></li>
+                <li><a href="./ingredient?id=41">Aneth</a></li>
+                <li><a href="./ingredient?id=32">Artichaut</a></li>
+                <li><a href="./ingredient?id=21">Asperge</a></li>
+                <li><a href="./ingredient?id=8">Aubergine</a></li>
+                <li><a href="./ingredient?id=33">Avocat</a></li>
+                <li><a href="./ingredient?id=62">Avoine</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>B</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./ingredient?id=118">Banane plantin</a></li>
+                <li><a href="./ingredient?id=34">Basilic</a></li>
+                <li><a href="./ingredient?id=22">Betterave</a></li>
+                <li><a href="./ingredient?id=72">Beurre</a></li>
+                <li><a href="./ingredient?id=64">Blé</a></li>
+                <li><a href="./ingredient?id=11">Brocoli</a></li>
+                <li><a href="./ingredient?id=79">Bœuf</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>C</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./ingredient?id=91">Cabillaud</a></li>
+                <li><a href="./ingredient?id=86">Calamar</a></li>
+                <li><a href="./ingredient?id=49">Cannelle</a></li>
+                <li><a href="./ingredient?id=99">Cardamome</a></li>
+                <li><a href="./ingredient?id=4">Carotte</a></li>
+                <li><a href="./ingredient?id=15">Céleri</a></li>
+                <li><a href="./ingredient?id=9">Champignon</a></li>
+                <li><a href="./ingredient?id=25">Chou de Bruxelles</a></li>
+                <li><a href="./ingredient?id=23">Chou rouge</a></li>
+                <li><a href="./ingredient?id=24">Chou vert</a></li>
+                <li><a href="./ingredient?id=12">Chou-fleur</a></li>
+                <li><a href="./ingredient?id=43">Ciboulette</a></li>
+                <li><a href="./ingredient?id=31">Citrouille</a></li>
+                <li><a href="./ingredient?id=100">Clous de girofle</a></li>
+                <li><a href="./ingredient?id=107">Concentré de tomates</a></li>
+                <li><a href="./ingredient?id=18">Concombre</a></li>
+                <li><a href="./ingredient?id=36">Coriandre</a></li>
+                <li><a href="./ingredient?id=29">Courge</a></li>
+                <li><a href="./ingredient?id=7">Courgette</a></li>
+                <li><a href="./ingredient?id=85">Crabe</a></li>
+                <li><a href="./ingredient?id=73">Crème fraîche</a></li>
+                <li><a href="./ingredient?id=84">Crevettes</a></li>
+                <li><a href="./ingredient?id=124">Crevettes séchées broyées</a></li>
+                <li><a href="./ingredient?id=122">Cube</a></li>
+                <li><a href="./ingredient?id=108">Cube de bouillon</a></li>
+                <li><a href="./ingredient?id=46">Curcuma</a></li>
+                <li><a href="./ingredient?id=98">Curry</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>E</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./ingredient?id=101">eau</a></li>
+                <li><a href="./ingredient?id=13">Épinards</a></li>
+                <li><a href="./ingredient?id=42">Estragon</a></li>
+
+            </ul>
+
+        </div>
+        <div class="listAlphater">
+
+
+            <h2>F</h2>
+
+            <ul class="listpaysletter">
+                <li><a href="./ingredient?id=55">Farine</a></li>
+                <li><a href="./ingredient?id=129">Farine de maïs</a></li>
+                <li><a href="./ingredient?id=20">Fenouil</a></li>
+                <li><a href="./ingredient?id=113">Feuilles de basilic</a></li>
+
+            </ul>
+
+        </div>
+
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="arrow">
+            <a href="#"><img src="./asset/appimg/logo-02.png" alt="arrow"></a>
+        </div>
+        <p>Tous droits réservés Bwango Astrid - 2024</p>
+
+    </div>
+
+</footer>
+<script type="module" src="./js/app.js"></script>
+<script src="./js/recette/searchbar.js"></script>
+
+
+</body>
+
